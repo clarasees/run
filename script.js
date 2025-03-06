@@ -60,7 +60,7 @@ const cardContainer = document.querySelector(".card-container");
 
 // Function to load new cards (Prepend instead of Append)
 function loadNewCards() {
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 150; i++) {
     const card = document.createElement("div");
     card.textContent = "New Step";
     card.classList.add("card");

@@ -84,17 +84,19 @@ body {
   
   #distance-tracker {
     position: fixed;
-    top: 10%;
-    right: 8%;
-    background-color: black;
-    color: white;
-    border-radius: .6vw;
+    top: 8%;
+    right: 6%;
+    border: solid black 2px;
+    color: black;
     height: 60px;
-    width: 200px;
-    font-size: 40px;
+    width: 180px;
+    font-size: 15px;
     display: flex;            
     justify-content: center;  
     align-items: center;   
+    font-family: "Lexend Peta", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .triangle-down {
