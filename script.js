@@ -148,8 +148,3 @@ setInterval(() => {
   distanceTracker.innerHTML = Math.round(totalPixelsScrolled/secondsPassed) + "km/hr";
 }, 1000)
 
-window.onload = function () {
-  setTimeout(() => {
-    window.scrollTo(0, document.body.scrollHeight);
-  }, 100); // Delay slightly to ensure DOM updates
-};

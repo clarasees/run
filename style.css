@@ -72,7 +72,7 @@ body {
     width: 50%;  
     height: 50%;
     background: radial-gradient(circle, white 1%, rgba(255, 0, 0, 0) 70%);
-    border-radius: 80%;
+    border-radius: 50%;
     transform: translate(-50%, -50%);
     transition: width 3s ease-in-out, height 3s ease-in-out;
     }
@@ -106,3 +106,12 @@ body {
   border-right: 20px solid transparent;   /* Right side of the triangle */
   border-top: 40px solid black;           /* Creates the downward triangle */
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    font-family: "times-new-light.woff", serif;
+    font-optical-sizing: auto;
+    font-size: 30px; 
+  }
+
+ 
