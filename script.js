@@ -131,12 +131,12 @@ let totalPixelsScrolled = 0;
 window.addEventListener('wheel', (e) => {
   console.log(totalPixelsScrolled);
   totalPixelsScrolled = totalPixelsScrolled + - e.deltaY
-  console.log(totalPixelsScrolled + "min/km");
+  console.log(totalPixelsScrolled + "km/hr");
 
   let distanceTracker = document.querySelector
   distanceTracker.innerHTML = Math.round
   ('#distance-tracker');
-  (totalPixelsScrolled/secondsPassed) + "min/km";
+  (totalPixelsScrolled/secondsPassed) + "km/hr";
 })
 
 let secondsPassed = 0;
@@ -145,7 +145,7 @@ setInterval(() => {
   
   let distanceTracker = document.querySelector
   ('#distance-tracker');
-  distanceTracker.innerHTML = Math.round(totalPixelsScrolled/secondsPassed) + "min/km";
+  distanceTracker.innerHTML = Math.round(totalPixelsScrolled/secondsPassed) + "km/hr";
 }, 1000)
 
 window.onload = function () {
